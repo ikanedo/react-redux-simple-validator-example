@@ -1,0 +1,51 @@
+{
+  "name": "React redux simple validate example",
+  "version": "1.0.0",
+  "description": "Example project consuming react redux simple validate",
+  "main": "index.js",
+  "scripts": {
+    "start": "jspm-server --port=8089",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jspm": "^0.16.14",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.5.0",
+    "es6-promise": "^3.2.1",
+    "eslint": "^2.5.3",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.2.3"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "public"
+    },
+    "dependencies": {
+      "ikanedo/react-redux-simple-validate": "github:ikanedo/react-redux-simple-validate@master",
+      "jsx": "github:floatdrop/plugin-jsx@^1.2.1",
+      "react": "npm:react@^15.4.2",
+      "react-dom": "npm:react-dom@^15.4.2",
+      "react-redux": "npm:react-redux@^5.0.3",
+      "redux": "npm:redux@^3.6.0",
+      "redux-thunk": "npm:redux-thunk@^2.2.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    },
+    "overrides": {
+      "npm:react-redux@5.0.3": {
+        "peerDependencies": {
+          "react": "^15"
+        },
+        "main": "lib/index.js"
+      }
+    }
+  }
+}
