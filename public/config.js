@@ -17,7 +17,7 @@ System.config({
     "babel": "npm:babel-core@5.8.33",
     "babel-runtime": "npm:babel-runtime@5.8.29",
     "core-js": "npm:core-js@1.2.7",
-    "ikanedo/react-redux-simple-validate": "github:ikanedo/react-redux-simple-validate@master",
+    "ikanedo/react-redux-simple-validate": "github:ikanedo/react-redux-simple-validate@1.0.0",
     "jsx": "github:floatdrop/plugin-jsx@1.2.1",
     "react": "npm:react@15.4.2",
     "react-dom": "npm:react-dom@15.4.2",
@@ -27,7 +27,7 @@ System.config({
     "github:floatdrop/plugin-jsx@1.2.1": {
       "react-tools": "npm:react-tools@0.13.3"
     },
-    "github:ikanedo/react-redux-simple-validate@master": {
+    "github:ikanedo/react-redux-simple-validate@1.0.0": {
       "jsx": "github:floatdrop/plugin-jsx@1.2.1",
       "lodash": "npm:lodash@4.17.4",
       "react": "npm:react@15.4.2",
@@ -390,7 +390,7 @@ System.config({
     },
     "npm:isomorphic-fetch@2.2.1": {
       "node-fetch": "npm:node-fetch@1.6.3",
-      "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
+      "whatwg-fetch": "npm:whatwg-fetch@2.0.3"
     },
     "npm:jstransform@10.1.0": {
       "base62": "npm:base62@0.1.1",
