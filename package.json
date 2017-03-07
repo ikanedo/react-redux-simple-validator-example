@@ -26,7 +26,7 @@
       "baseURL": "public"
     },
     "dependencies": {
-      "ikanedo/react-redux-simple-validate": "github:ikanedo/react-redux-simple-validate@master",
+      "ikanedo/react-redux-simple-validate": "github:ikanedo/react-redux-simple-validate@^1.0.0",
       "jsx": "github:floatdrop/plugin-jsx@^1.2.1",
       "react": "npm:react@^15.4.2",
       "react-dom": "npm:react-dom@^15.4.2",

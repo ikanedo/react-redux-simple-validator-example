@@ -28,15 +28,11 @@ System.config({
       "react-tools": "npm:react-tools@0.13.3"
     },
     "github:ikanedo/react-redux-simple-validate@master": {
-      "enzyme": "npm:enzyme@2.7.1",
       "jsx": "github:floatdrop/plugin-jsx@1.2.1",
       "lodash": "npm:lodash@4.17.4",
       "react": "npm:react@15.4.2",
-      "react-addons-test-utils": "npm:react-addons-test-utils@15.4.2",
-      "react-dom": "npm:react-dom@15.4.2",
       "react-redux": "npm:react-redux@5.0.3",
       "redux": "npm:redux@3.6.0",
-      "redux-thunk": "npm:redux-thunk@2.2.0",
       "validate.js": "npm:validate.js@0.10.0"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -198,26 +194,6 @@ System.config({
       "isarray": "npm:isarray@1.0.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:cheerio@0.22.0": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "css-select": "npm:css-select@1.2.0",
-      "dom-serializer": "npm:dom-serializer@0.1.0",
-      "entities": "npm:entities@1.1.1",
-      "htmlparser2": "npm:htmlparser2@3.9.2",
-      "lodash.assignin": "npm:lodash.assignin@4.2.0",
-      "lodash.bind": "npm:lodash.bind@4.2.1",
-      "lodash.defaults": "npm:lodash.defaults@4.2.0",
-      "lodash.filter": "npm:lodash.filter@4.6.0",
-      "lodash.flatten": "npm:lodash.flatten@4.4.0",
-      "lodash.foreach": "npm:lodash.foreach@4.5.0",
-      "lodash.map": "npm:lodash.map@4.6.0",
-      "lodash.merge": "npm:lodash.merge@4.6.0",
-      "lodash.pick": "npm:lodash.pick@4.4.0",
-      "lodash.reduce": "npm:lodash.reduce@4.6.0",
-      "lodash.reject": "npm:lodash.reject@4.6.0",
-      "lodash.some": "npm:lodash.some@4.6.0",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
-    },
     "npm:cipher-base@1.0.3": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "inherits": "npm:inherits@2.0.1",
@@ -298,17 +274,6 @@ System.config({
       "public-encrypt": "npm:public-encrypt@4.0.0",
       "randombytes": "npm:randombytes@2.0.3"
     },
-    "npm:css-select@1.2.0": {
-      "boolbase": "npm:boolbase@1.0.0",
-      "css-what": "npm:css-what@2.1.0",
-      "domutils": "npm:domutils@1.5.1",
-      "nth-check": "npm:nth-check@1.0.1",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
-    },
-    "npm:define-properties@1.1.2": {
-      "foreach": "npm:foreach@2.0.5",
-      "object-keys": "npm:object-keys@1.0.11"
-    },
     "npm:des.js@1.0.0": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "inherits": "npm:inherits@2.0.1",
@@ -328,19 +293,8 @@ System.config({
       "randombytes": "npm:randombytes@2.0.3",
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
-    "npm:dom-serializer@0.1.0": {
-      "domelementtype": "npm:domelementtype@1.1.3",
-      "entities": "npm:entities@1.1.1"
-    },
     "npm:domain-browser@1.1.7": {
       "events": "github:jspm/nodelibs-events@0.1.1"
-    },
-    "npm:domhandler@2.3.0": {
-      "domelementtype": "npm:domelementtype@1.3.0"
-    },
-    "npm:domutils@1.5.1": {
-      "dom-serializer": "npm:dom-serializer@0.1.0",
-      "domelementtype": "npm:domelementtype@1.3.0"
     },
     "npm:elliptic@6.4.0": {
       "bn.js": "npm:bn.js@4.11.6",
@@ -355,33 +309,6 @@ System.config({
     "npm:encoding@0.1.12": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "iconv-lite": "npm:iconv-lite@0.4.15"
-    },
-    "npm:entities@1.1.1": {
-      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
-    },
-    "npm:enzyme@2.7.1": {
-      "cheerio": "npm:cheerio@0.22.0",
-      "function.prototype.name": "npm:function.prototype.name@1.0.0",
-      "is-subset": "npm:is-subset@0.1.1",
-      "lodash": "npm:lodash@4.17.4",
-      "object-is": "npm:object-is@1.0.1",
-      "object.assign": "npm:object.assign@4.0.4",
-      "object.entries": "npm:object.entries@1.0.4",
-      "object.values": "npm:object.values@1.0.4",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "react": "npm:react@15.4.2",
-      "uuid": "npm:uuid@2.0.3"
-    },
-    "npm:es-abstract@1.7.0": {
-      "es-to-primitive": "npm:es-to-primitive@1.1.1",
-      "function-bind": "npm:function-bind@1.1.0",
-      "is-callable": "npm:is-callable@1.1.3",
-      "is-regex": "npm:is-regex@1.0.4"
-    },
-    "npm:es-to-primitive@1.1.1": {
-      "is-callable": "npm:is-callable@1.1.3",
-      "is-date-object": "npm:is-date-object@1.0.1",
-      "is-symbol": "npm:is-symbol@1.0.1"
     },
     "npm:esprima-fb@13001.1001.0-dev-harmony-fb": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -405,11 +332,6 @@ System.config({
       "promise": "npm:promise@7.1.1",
       "setimmediate": "npm:setimmediate@1.0.5",
       "ua-parser-js": "npm:ua-parser-js@0.7.12"
-    },
-    "npm:function.prototype.name@1.0.0": {
-      "define-properties": "npm:define-properties@1.1.2",
-      "function-bind": "npm:function-bind@1.1.0",
-      "is-callable": "npm:is-callable@1.1.3"
     },
     "npm:glob@5.0.15": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
@@ -435,9 +357,6 @@ System.config({
     "npm:graceful-readlink@1.0.1": {
       "fs": "github:jspm/nodelibs-fs@0.1.2"
     },
-    "npm:has@1.0.1": {
-      "function-bind": "npm:function-bind@1.1.0"
-    },
     "npm:hash.js@1.0.3": {
       "inherits": "npm:inherits@2.0.1"
     },
@@ -445,19 +364,6 @@ System.config({
       "hash.js": "npm:hash.js@1.0.3",
       "minimalistic-assert": "npm:minimalistic-assert@1.0.0",
       "minimalistic-crypto-utils": "npm:minimalistic-crypto-utils@1.0.1",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
-    },
-    "npm:htmlparser2@3.9.2": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "domelementtype": "npm:domelementtype@1.3.0",
-      "domhandler": "npm:domhandler@2.3.0",
-      "domutils": "npm:domutils@1.5.1",
-      "entities": "npm:entities@1.1.1",
-      "events": "github:jspm/nodelibs-events@0.1.1",
-      "inherits": "npm:inherits@2.0.1",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "stream": "github:jspm/nodelibs-stream@0.1.0",
-      "string_decoder": "github:jspm/nodelibs-string_decoder@0.1.0",
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:https-browserify@0.0.0": {
@@ -482,9 +388,6 @@ System.config({
       "loose-envify": "npm:loose-envify@1.3.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:is-regex@1.0.4": {
-      "has": "npm:has@1.0.1"
-    },
     "npm:isomorphic-fetch@2.2.1": {
       "node-fetch": "npm:node-fetch@1.6.3",
       "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
@@ -496,28 +399,6 @@ System.config({
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "source-map": "npm:source-map@0.1.31"
-    },
-    "npm:lodash.bind@4.2.1": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:lodash.filter@4.6.0": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:lodash.map@4.6.0": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:lodash.merge@4.6.0": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:lodash.reduce@4.6.0": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:lodash.reject@4.6.0": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:lodash.some@4.6.0": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:loose-envify@1.3.1": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -550,28 +431,6 @@ System.config({
       "url": "github:jspm/nodelibs-url@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0",
       "zlib": "github:jspm/nodelibs-zlib@0.1.0"
-    },
-    "npm:nth-check@1.0.1": {
-      "assert": "github:jspm/nodelibs-assert@0.1.0",
-      "boolbase": "npm:boolbase@1.0.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:object.assign@4.0.4": {
-      "define-properties": "npm:define-properties@1.1.2",
-      "function-bind": "npm:function-bind@1.1.0",
-      "object-keys": "npm:object-keys@1.0.11"
-    },
-    "npm:object.entries@1.0.4": {
-      "define-properties": "npm:define-properties@1.1.2",
-      "es-abstract": "npm:es-abstract@1.7.0",
-      "function-bind": "npm:function-bind@1.1.0",
-      "has": "npm:has@1.0.1"
-    },
-    "npm:object.values@1.0.4": {
-      "define-properties": "npm:define-properties@1.1.2",
-      "es-abstract": "npm:es-abstract@1.7.0",
-      "function-bind": "npm:function-bind@1.1.0",
-      "has": "npm:has@1.0.1"
     },
     "npm:once@1.4.0": {
       "wrappy": "npm:wrappy@1.0.2"
@@ -635,11 +494,6 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:react-addons-test-utils@15.4.2": {
-      "fbjs": "npm:fbjs@0.8.9",
-      "object-assign": "npm:object-assign@4.1.1",
-      "react-dom": "npm:react-dom@15.4.2"
     },
     "npm:react-dom@15.4.2": {
       "fbjs": "npm:fbjs@0.8.9",
@@ -752,13 +606,6 @@ System.config({
     "npm:util@0.10.3": {
       "inherits": "npm:inherits@2.0.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:uuid@2.0.3": {
-      "assert": "github:jspm/nodelibs-assert@0.1.0",
-      "child_process": "github:jspm/nodelibs-child_process@0.1.0",
-      "crypto": "github:jspm/nodelibs-crypto@0.1.0",
-      "os": "github:jspm/nodelibs-os@0.1.0",
-      "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:validate.js@0.10.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"
