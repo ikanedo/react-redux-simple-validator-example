@@ -34,8 +34,8 @@ export default class BasicFormGroup extends Component {
     );
   }
 
-  handleValidForm() {
-    console.log('call a Redux thunk here to submit your data to the server!');
+  handleValidForm(data) {
+    console.log('call a Redux thunk here to submit your data to the server!', data);
   }
 
   render() {

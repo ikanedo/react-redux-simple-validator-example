@@ -1,5 +1,5 @@
 {
-  "name": "React redux simple validate example",
+  "name": "React-redux-simple-validate-example",
   "version": "1.0.0",
   "description": "Example project consuming react redux simple validate",
   "main": "index.js",
