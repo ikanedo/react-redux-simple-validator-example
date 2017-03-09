@@ -2,8 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { store } from './basicStore';
-import Form from 'ikanedo/react-redux-simple-validate';
-import FormError from 'ikanedo/react-redux-simple-validate/src/forms/formError';
+import { Form, FormError } from 'react-redux-simple-validate';
 
 export default class BasicForm extends Component {
   constructor() {

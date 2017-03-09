@@ -2,9 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import { store } from './basicStore';
 import { Provider, connect } from 'react-redux';
-import FormGroup from 'ikanedo/react-redux-simple-validate/src/forms/formGroup';
-import FormError from 'ikanedo/react-redux-simple-validate/src/forms/formError';
-import * as formActions from 'ikanedo/react-redux-simple-validate/src/forms/formActions';
+import { FormGroup, FormError, FormActions } from 'react-redux-simple-validate';
 
 export default class BasicFormGroup extends Component {
   constructor() {
@@ -30,7 +28,7 @@ export default class BasicFormGroup extends Component {
     e.preventDefault();
     const { name, dispatch } = this.props;
     dispatch(
-      formActions.triggerValidate(name)
+      FormActions.triggerValidate(name)
     );
   }
 

@@ -1,7 +1,8 @@
 import { createStore, applyMiddleware, compose, combineReducers } from 'redux';
 import thunk from 'redux-thunk';
-import Forms from 'ikanedo/react-redux-simple-validate/src/forms/formReducer';
+import { FormReducer } from 'react-redux-simple-validate';
 
+const Forms = FormReducer;
 const basicFormReducer = combineReducers({
   Forms
 });

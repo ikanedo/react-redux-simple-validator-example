@@ -26,11 +26,11 @@
       "baseURL": "public"
     },
     "dependencies": {
-      "ikanedo/react-redux-simple-validate": "github:ikanedo/react-redux-simple-validate@^1.0.0",
       "jsx": "github:floatdrop/plugin-jsx@^1.2.1",
       "react": "npm:react@^15.4.2",
       "react-dom": "npm:react-dom@^15.4.2",
       "react-redux": "npm:react-redux@^5.0.3",
+      "react-redux-simple-validate": "npm:react-redux-simple-validate@^1.0.8",
       "redux": "npm:redux@^3.6.0",
       "redux-thunk": "npm:redux-thunk@^2.2.0"
     },

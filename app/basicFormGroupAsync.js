@@ -2,10 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import { store } from './basicStore';
 import { Provider, connect } from 'react-redux';
-import FormGroup from 'ikanedo/react-redux-simple-validate/src/forms/formGroup';
-import FormError from 'ikanedo/react-redux-simple-validate/src/forms/formError';
-import FormGroupAsync from 'ikanedo/react-redux-simple-validate/src/forms/formGroupAsync';
-import * as FormActions from 'ikanedo/react-redux-simple-validate/src/forms/formActions';
+import { FormGroup, FormGroupAsync, FormError, FormActions } from 'react-redux-simple-validate';
 
 const validationRules = {
   rules: {

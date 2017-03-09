@@ -22,6 +22,7 @@ System.config({
     "react": "npm:react@15.4.2",
     "react-dom": "npm:react-dom@15.4.2",
     "react-redux": "npm:react-redux@5.0.3",
+    "react-redux-simple-validate": "npm:react-redux-simple-validate@1.0.8",
     "redux": "npm:redux@3.6.0",
     "redux-thunk": "npm:redux-thunk@2.2.0",
     "github:floatdrop/plugin-jsx@1.2.1": {
@@ -501,6 +502,14 @@ System.config({
       "object-assign": "npm:object-assign@4.1.1",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "react": "npm:react@15.4.2"
+    },
+    "npm:react-redux-simple-validate@1.0.8": {
+      "jsx": "github:floatdrop/plugin-jsx@1.2.1",
+      "lodash": "npm:lodash@4.17.4",
+      "react": "npm:react@15.4.2",
+      "react-redux": "npm:react-redux@5.0.3",
+      "redux": "npm:redux@3.6.0",
+      "validate.js": "npm:validate.js@0.10.0"
     },
     "npm:react-redux@5.0.3": {
       "hoist-non-react-statics": "npm:hoist-non-react-statics@1.2.0",
