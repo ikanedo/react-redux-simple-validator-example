@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { store } from './basicStore';
 import { Provider, connect } from 'react-redux';
@@ -165,11 +165,6 @@ export class BasicFormGroupAsync extends Component {
     );
   }
 }
-
-BasicFormGroupAsync.propTypes = {
-  name: PropTypes.string.isRequired,
-  triggerValidate: PropTypes.func.isRequired
-};
 
 const ConnectedBasicFormGroupAsync = connect(null, FormActions)(BasicFormGroupAsync);
 ReactDOM.render(

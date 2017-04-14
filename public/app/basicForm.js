@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { store } from './basicStore';
@@ -47,10 +47,6 @@ export default class BasicForm extends Component {
     );
   }
 }
-
-BasicForm.propTypes = {
-  name: PropTypes.string.isRequired
-};
 
 ReactDOM.render(
   <Provider store={store}>

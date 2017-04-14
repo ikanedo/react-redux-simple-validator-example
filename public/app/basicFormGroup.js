@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { store } from './basicStore';
 import { Provider, connect } from 'react-redux';
@@ -54,11 +54,6 @@ export default class BasicFormGroup extends Component {
     );
   }
 }
-
-BasicFormGroup.propTypes = {
-  name: PropTypes.string.isRequired,
-  dispatch: PropTypes.func.isRequired
-};
 
 const ConnectedBasicFormGroup = connect()(BasicFormGroup);
 ReactDOM.render(
