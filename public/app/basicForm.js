@@ -39,8 +39,8 @@ export default class BasicForm extends Component {
             <input type="text" name="exampleInput" value="" />
             <button className="button">Submit</button>
           </div>
-          <div>
-            <FormError forInput="exampleInput" />
+          <div data-form-error="exampleInput"> {/* this DIV will have an error class */}
+            <FormError forInput="exampleInput" /> {/* this will display error message */}
           </div>
         </Form>
       </div>
