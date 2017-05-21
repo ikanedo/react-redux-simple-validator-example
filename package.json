@@ -32,7 +32,7 @@
       "react": "npm:react@^15.4.2",
       "react-dom": "npm:react-dom@^15.4.2",
       "react-redux": "npm:react-redux@^5.0.3",
-      "react-redux-simple-validate": "npm:react-redux-simple-validate@^1.0.10",
+      "react-redux-simple-validate": "npm:react-redux-simple-validate@^1.1.0",
       "redux": "npm:redux@^3.6.0",
       "redux-thunk": "npm:redux-thunk@^2.2.0"
     },
@@ -42,6 +42,9 @@
       "core-js": "npm:core-js@^1.1.4"
     },
     "overrides": {
+      "npm:react-redux-simple-validate@1.1.0": {
+        "jspmPackage": true
+      },
       "npm:react-redux@5.0.3": {
         "peerDependencies": {
           "react": "^15"
